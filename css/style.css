@@ -1,0 +1,65 @@
+body , html{
+margin: 0;
+padding: 0;
+}
+.conteiner{
+    max-width: 900px;
+    margin: auto;
+}
+.NavBar{
+    text-align: center;
+    background-color: chocolate;
+   padding: 10px;
+}
+.img{
+    background: url(/imagen/hero_bolo.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    padding: 25px;
+    color: chocolate;
+}
+
+.conteudo{
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+
+}
+
+.card{
+
+
+}
+
+.card:hover{
+      border: 1px solid rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+li{
+    padding: 15px;
+}
+.link{
+    background-color: chocolate;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+
+}
+
+a:hover{
+    background-color: blueviolet;
+    color: white;
+
+
+}
