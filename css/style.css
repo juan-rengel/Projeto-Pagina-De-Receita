@@ -29,12 +29,17 @@ h2{
     padding: 15px;
     margin: auto;
 
-}
-
-.card{
-
 
 }
+
+.ingrediente{
+    cursor: url(/imagen/cursor_ingredientes.png), auto;
+}
+
+.preparo{
+    cursor: url(/imagen/cursor_preparo.png), auto;
+}
+
 
 .card:hover{
       border: 1px solid rgba(0, 0, 0, 0.377);
@@ -62,4 +67,11 @@ a:hover{
     color: white;
 
 
+}
+
+.footer{
+    background-color: chocolate;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
